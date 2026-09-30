@@ -1,0 +1,6 @@
+package com.bank.crm.model;
+
+public enum AuditAction {
+    CREATE, UPDATE, DELETE, PURGE,
+    BULK_LOAD_QUEUED, BULK_LOAD_STARTED, BULK_CHUNK_LOADED, BULK_LOAD_COMPLETED, BULK_LOAD_FAILED
+}
